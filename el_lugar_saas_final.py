@@ -1,4 +1,3 @@
-
 st.markdown("""
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#4dabf7">
