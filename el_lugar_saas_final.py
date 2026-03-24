@@ -1,7 +1,4 @@
-st.markdown("""
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#4dabf7">
-""", unsafe_allow_html=True)
+
 import streamlit as st
 import sqlite3
 import os
@@ -19,6 +16,10 @@ except ImportError:
     OpenAI = None
 
 # ================= CONFIG =================
+
+st.markdown("""<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#4dabf7">
+""", unsafe_allow_html=True)
 
 st.set_page_config(page_title="El Lugar SaaS", page_icon="🌸")
 
